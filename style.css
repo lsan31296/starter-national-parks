@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap");
 
+
 * {
   box-sizing: border-box;
 }
@@ -121,4 +122,26 @@ main {
   main {
     grid-template-columns: repeat(4, 1fr);
   }
+}
+
+/* Dynamically adding classes */
+.high-rating {
+  color: #3ba17c;
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-shadow: 1px 1px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+/* Dynamically adding class to style inserted element using createElement() method in js*/
+.header-statement {
+  color: #ffffff;
+  font-size: 1.2rem;
+}
+
+/* Style for park sorting links*/
+.sorter {
+  width: 100;
+  margin: 0 auto;
+  padding: 6px;
 }
